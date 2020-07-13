@@ -1,0 +1,14 @@
+# Authentication
+set user ""
+set pass ""
+set address ""
+set ssh_file "~/.ssh/id_rsa"
+
+# Client paths (be sure to check BEFORE executing if the paths are correct)
+set absolute_client_path_to_gamemode ""
+set absolute_client_path_to_addons ""
+
+# Server paths (be sure to check BEFORE executing if the paths are correct)
+set absolute_server_path_to_gamemode ""
+set absolute_server_path_to_addons ""
+
