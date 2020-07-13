@@ -15,8 +15,9 @@ $struct = @{
     Health = $health;
     Category = "FURNITURE";
     Quantity = 0;
-    IsStackable = "true";
-    IsBuyableFromFlea = "true";
+    IsStackable = true;
+    MarketPrice = $price;
+    IsBuyableFromFlea = true;
 }
 
 ConvertTo-Json $struct | Out-File ( $mdlname.ToLower() + ".json" )
